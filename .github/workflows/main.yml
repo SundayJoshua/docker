@@ -13,7 +13,7 @@ jobs:
          
         steps:
 
-      - name: SundayJoshua/docker 
+      - name: Check Out Repo 
         uses: actions/checkout@v2
 
       - name: Login to Docker Hub
