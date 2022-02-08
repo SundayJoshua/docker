@@ -16,7 +16,7 @@ jobs:
       - name: Cache Docker layers 
         uses: actions/checkout@v2
         with:
-          path: /tmp/ .buildx-cache
+          path: /tmp/.buildx-cache
           keys: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-buildx-
